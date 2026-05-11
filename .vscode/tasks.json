@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "🚀 Iniciar Escritório (Multi-Agent)",
+            "dependsOn": [
+                "1. Claude (CEO)",
+                "2. Antigravity (DevOps)",
+                "3. Terminal de Trabalho"
+            ],
+            "dependsOrder": "parallel",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "label": "1. Claude (CEO)",
+            "type": "shell",
+            "command": "claude",
+            "isBackground": true,
+            "presentation": {
+                "panel": "new",
+                "group": "agentes",
+                "focus": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "2. Antigravity (DevOps)",
+            "type": "shell",
+            "command": "echo '=== ANTIGRAVITY PRONTO ===' && powershell",
+            "isBackground": true,
+            "presentation": {
+                "panel": "new",
+                "group": "agentes",
+                "focus": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "3. Terminal de Trabalho",
+            "type": "shell",
+            "command": "echo '=== SERVIDOR LOCAL / EXTRA ===' && powershell",
+            "isBackground": true,
+            "presentation": {
+                "panel": "new",
+                "group": "agentes",
+                "focus": true,
+                "clear": true
+            }
+        }
+    ]
+}
