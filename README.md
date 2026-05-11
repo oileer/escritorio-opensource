@@ -4,8 +4,8 @@ Bem-vindo ao **Escritório de IAs**. Este não é apenas um repositório de cód
 
 Se você acabou de baixar ou clonar este repositório, você tem duas opções:
 1. **Fazer na mão:** Olhar as pastas e ir configurando tudo sozinho.
-2. **O Jeito IA (Setup Mágico):** Copie **TODO o texto deste documento**, cole na sua IA principal (Claude) e envie a seguinte mensagem:
-   > *"Estou montando meu escritório de IA. Leia este README e execute o bloco <agent_prompt> para me orientar na configuração."*
+2. **O Jeito IA (O Onboarding do CEO):** Copie **TODO o texto deste documento**, cole na sua IA principal (Claude) e envie a seguinte mensagem:
+   > *"Estou montando meu escritório de IA. Leia este README e execute o bloco <agent_prompt> para me orientar na configuração. Depois, ative o protocolo `/ceo`."*
 
 ---
 
@@ -55,12 +55,15 @@ Instrua o usuário claramente com este exato texto em negrito:
 **Passo 3: Setup de Chaves (Variáveis de Ambiente)**
 Oriente o usuário a criar o seu próprio arquivo `.env` contendo as chaves que ele precisará para os agentes de terminal (ex: OPENAI_API_KEY, ANTHROPIC_API_KEY). Deixe claro onde ele deve salvar o arquivo para que a Tríade tenha acesso.
 
-**Passo 4: Celebração**
-Diga ao usuário que a mesa do escritório dele está montada. Diga que ele agora possui uma verdadeira "Agência Autônoma" dividida perfeitamente para máxima produtividade. Peça para ele fechar e reabrir o editor para ver os terminais.
+**Passo 4: Celebração e Passagem de Bastão**
+Diga ao usuário que a mesa do escritório dele está montada. Peça para ele fechar e reabrir o editor para ver os terminais. 
+Por fim, oriente o usuário de forma destacada: **"Agora, abra o arquivo `agentes/CEO.md` e inicie a conversa com `/ceo`. O CEO fará o seu Onboarding e descobrirá com o que você trabalha para personalizar toda a agência."**
 </agent_prompt>
 
 ---
 
-## 🚀 EXEMPLOS DE FLUXOS DE TRABALHO (Veja a pasta `/agentes`)
-Nós empacotamos o conhecimento da agência em arquivos `.md` dentro da pasta `agentes/`. Combine esses agentes para criar pipelines absolutos.
+## 🚀 O SEU PRIMEIRO PASSO: CHAME O CEO
+Este escritório é 100% dinâmico e se adapta a CLTs, Freelancers ou Grandes Empresários. 
+A magia acontece no arquivo `agentes/CEO.md`. Assim que você iniciar o seu terminal (ou abrir o Claude), basta digitar o comando `/ceo` (ou fornecer o arquivo do CEO) e ele fará uma entrevista para orquestrar todos os outros agentes para o seu caso específico de uso.
+
 > *"Tudo que se repete, vira protocolo. Todo protocolo vira automação."*
